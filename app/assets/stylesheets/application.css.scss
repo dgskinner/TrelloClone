@@ -15,3 +15,37 @@
 
 @import "bootstrap";
 @import "font-awesome";
+
+.backdrop {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.board {
+	display: inline-block;
+	position: relative;
+	float: left;
+	background: #428bca;
+	height: 100px;
+	width: 22.5%;
+	margin: 10px;
+	padding: 10px;
+	color: white;
+}
+
+.new.board {
+	background: lightgray;
+	color: gray;
+	text-align: center;
+	line-height: 80px;
+}
+
+.delete {
+//	float: right;
+    position: absolute;
+	font-size: 75%;
+	bottom: 0px;
+	right: 0px;	
+	color: gray;
+}
+
